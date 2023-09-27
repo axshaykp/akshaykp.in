@@ -1,0 +1,61 @@
+<div class="roller">
+  <span id="rolltext"
+    ><span
+      class="animate-text bg-gradient-to-r from-[#4158D0] via-[#C850C0] to-[#FFCC70] bg-clip-text text-transparent text-6xl font-black"
+      >HTML/CSS</span
+    ><br />
+    <span
+      class="animate-text bg-gradient-to-r from-[#0093E9] to-[#80D0C7] bg-clip-text text-transparent text-6xl font-black"
+      >React.JS</span
+    ><br />
+    <span
+      class="animate-text bg-gradient-to-r from-[#85FFBD] to-[#FFFB7D] bg-clip-text text-transparent text-6xl font-black"
+      >Next.JS</span
+    ><br />
+    <span
+      class="animate-text bg-gradient-to-r from-[#FEE140] to-[#FA709A] bg-clip-text text-transparent text-6xl font-black"
+      >TailwindCSS</span
+    ><br />
+    <span
+      class="animate-text bg-gradient-to-r from-[#0093E9] to-[#80D0C7] bg-clip-text text-transparent text-6xl font-black"
+      >Astro</span
+    ><br />
+  </span>
+</div>
+
+<style>
+  .roller {
+    height: 5rem;
+    line-height: 4.9rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 7s infinite;
+  }
+
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    20% {
+      top: -5rem;
+    }
+    45% {
+      top: -10rem;
+    }
+    65% {
+      top: -15rem;
+    }
+    75% {
+      top: -20rem;
+    }
+  }
+</style>
